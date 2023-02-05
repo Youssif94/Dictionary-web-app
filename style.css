@@ -1,0 +1,84 @@
+.monospace {
+    font-family: monospace;
+}
+.serif {
+    font-family: serif;
+}
+.sans-serif {
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1000px !important;
+}
+.row>nav{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.row>nav>ul{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.row>nav>ul>li{
+    list-style-type: none;
+}
+
+.fa-magnifying-glass{
+    color: purple;
+}
+.word-search-form{
+    /* width: 75vw; */
+}
+
+.sec-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    background-color: #ebeae8;
+    border-radius: 5px;
+    border-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.word-search{
+    border: none;
+    background-color: #ebeae8;
+    height: 50px;
+    width: 920px;
+}
+.input-group-text{
+    border: none;
+    background-color: transparent  !important;
+}
+
+.fa-circle-play{
+    font-size: 64px;
+    color: rgb(200, 44, 200);
+}
+.type{
+    display: flex;
+    align-items: center;
+}
+.word-type1,.word-type2{
+margin-right: 10px;
+}
+
+.line{
+    border-top: 1px solid rgb(173, 159, 159);
+    width: 100%;
+}
+
+.synonyms{
+    color: purple;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.play-BTN{
+    cursor: pointer;
+}

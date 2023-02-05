@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/952d30e9fc.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <nav>
+                <a href="#"> <i class="fa-solid fa-book"></i> </a>
+                <ul>
+                    <div class="dropdown">
+                        <p class="dropdown-toggle font-select" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Serif
+                        </p>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item sans" href="#">Sans </a></li>
+                            <li><a class="dropdown-item sans-serif" href="#">Sans Serif</a></li>
+                            <li><a class="dropdown-item monospace" href="#">Monospace </a></li>
+                        </ul>
+                    </div>
+                    <li> <i class="fa-solid fa-toggle-on"></i> </li>
+                    <li> <i class="fa-regular fa-moon"></i> </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search input-group">
+            <form class="word-search-form">
+                <input type="text" placeholder="Search for a word..." class="form-control word-search">
+            </form>
+            <span class="input-group-text"> <i class="fa-solid fa-magnifying-glass"></i> </span>
+        </div>
+
+        <h3 class="text-center err mt-3 p-2 bg-warning w-50 mx-auto fw-bold d-none">Word not found!</h3>
+
+        <div class="sec-1 my-5">
+            <div>
+                <h2 class="word mt-4 display-3 "></h2>
+                <p class="word-pron"></p>
+            </div>
+            <a class="play-BTN"> <audio src="" class="audio-link"> </audio> <i
+                    class="fa-solid fa-circle-play fa-2xl"></i> </a>
+        </div>
+
+        <!-- <div class="d-none">
+            <div class="type">
+                <h4 class="word-type1">type</h4>
+                <div class="line"></div>
+            </div>
+            <div class="sec-2 mt-4">
+                <h4>Meaning</h4>
+                <ul class="meanings">
+
+                </ul>
+                <h5 class="mt-5 d-inline">synonyms:</h5>
+                <p class="synonyms d-inline"></p>
+            </div>
+        </div> -->
+        <footer class="mt-5">
+            <h4 class="text-center bg-dark text-white py-5">footer</h4>
+        </footer>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
